@@ -1,16 +1,89 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-body {
-    background-color: blue;
-    border: 10px solid white;
+.container {
+    border: white 10px solid;
+    background-color: rgb(228, 224, 224);
+    height: 800px;
+    width: 1350px;
 }
 
 header {
-    margin: 50px 500px;
-    background-color: pink;
+    padding: 30px 90px;
+    margin: 20px 70px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 72px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.column1 {
+    background-color: blue;
+    height: 500px;
+    width: 350px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.row button {
+    background-color: yellow;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.contenido {
+    width: 800px;
+    margin-right: 5px;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 15px;
+}
+
+.tarjeta {
+    flex: 1;
+    background-color: yellow;
+    height: 200px;
+}
+
+.learn {
+    background-color: #990099;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.learn button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: beige;
+    font-weight: bold;
+    cursor: pointer;
+    color: #990099;
+    font-size: 1.1em;
 }
