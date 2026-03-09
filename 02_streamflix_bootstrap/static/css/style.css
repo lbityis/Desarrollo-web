@@ -23,7 +23,7 @@ body {
 /* 4. La imagen de fondo de Stranger Things con un difuminado negro */
 .hero-portada {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%),
-        url('https://images.alphacoders.com/133/1338193.png');
+        url('https://occ-0-264-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdE3ed2unbsdVaMD-GsgV6XGXyH4Q_N6YqwUQffwitZ1_6wqnSnVfGvUVKUVyJBsMS6uClovrLwKDuLQcdqTTtS8snJKqP0LKICN.webp?r=a8f');
     background-size: cover;
     background-position: center;
 }
